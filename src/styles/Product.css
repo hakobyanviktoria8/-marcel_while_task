@@ -1,0 +1,17 @@
+.productCart {
+  border: 1px solid gray;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.productCart > img {
+  width: 50%;
+  margin: 0 25% 20%;
+}
+
+.productCart > button {
+  margin: 20px;
+  width: 80%;
+  padding: 10px;
+}
