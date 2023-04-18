@@ -1,4 +1,3 @@
-import "./../styles/Product.css";
 import { ProductsType } from "../interfaceTypes/productsType";
 import { useState } from "react";
 

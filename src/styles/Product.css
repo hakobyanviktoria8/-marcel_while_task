@@ -1,3 +1,9 @@
+.Products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .productCart {
   border: 1px solid gray;
   width: 300px;
@@ -7,6 +13,7 @@
 
 .productCart > img {
   width: 50%;
+  height: 200px;
   margin: 0 25% 20%;
 }
 
