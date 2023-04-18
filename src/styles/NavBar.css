@@ -1,0 +1,16 @@
+.navbar {
+  border-bottom: 3px solid #dddddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar > a {
+  font-size: 20px;
+  margin: 20px;
+  font-weight: bold;
+  color: rgb(161, 161, 161);
+  text-decoration: none;
+}
+.navbar > a.active {
+  color: gray;
+}
