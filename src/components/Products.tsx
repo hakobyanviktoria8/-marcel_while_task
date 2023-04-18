@@ -1,8 +1,8 @@
-import { useProductsHook } from "../hooks/productsHook";
+import { useProductsHook } from "../hooks/useProductsHook";
 import { ErrorComp } from "./ErrorComp";
 import { Loading } from "./Loading";
 import { Product } from "./Product";
-import "./../styles/Product.css";
+import "./../styles/Products.css";
 
 export const Products = () => {
   const { data, loading, error } = useProductsHook();
